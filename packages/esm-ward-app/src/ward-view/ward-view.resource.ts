@@ -111,11 +111,11 @@ export function createAndGetWardPatientGrouping(
 
   const wardUnassignedPatientsList =
     inpatientAdmissionsAtCurrentLocation?.filter((inpatientAdmission) => {
-      allWardPatientUuids.add(inpatientAdmission.patient.uuid);
-      return (
-        !wardAdmittedPatientsWithBed.has(inpatientAdmission.patient.uuid) &&
-        !wardUnadmittedPatientsWithBed.has(inpatientAdmission.patient.uuid)
-      );
+      const patientUuid = inpatientAdmission?.patient?.uuid;
+      if (!patientUuid) return false;
+
+      allWardPatientUuids.add(patientUuid);
+      return !wardAdmittedPatientsWithBed.has(patientUuid) && !wardUnadmittedPatientsWithBed.has(patientUuid);
     }) ?? [];
 
   //excluding inpatientRequests
