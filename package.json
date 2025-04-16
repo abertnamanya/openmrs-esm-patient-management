@@ -1,5 +1,5 @@
 {
-  "name": "@openmrs/esm-patient-management",
+  "name": "@zimhospicare/esm-patient-management",
   "version": "8.3.1",
   "private": true,
   "description": "Patient management microfrontend for the OpenMRS 3.x frontend",
