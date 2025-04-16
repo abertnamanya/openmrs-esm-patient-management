@@ -1,4 +1,4 @@
-import { type InpatientRequest } from '@openmrs/esm-ward-app/src/types';
+import { type InpatientRequest } from '@zimhospicare/esm-ward-app/src/types';
 import { mockLocationInpatientWard } from './locations.mock';
 import { mockPatientAlice } from './patient.mock';
 import { mockVisitAlice } from './visits.mock';
