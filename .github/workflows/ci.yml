@@ -148,4 +148,3 @@ jobs:
       - run: yarn config set npmAuthToken "${NODE_AUTH_TOKEN}" && yarn run ci:publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-
