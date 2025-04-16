@@ -2797,24 +2797,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-active-visits-app@workspace:packages/esm-active-visits-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-active-visits-app@workspace:packages/esm-active-visits-app"
-  dependencies:
-    "@carbon/react": "npm:^1.76.0"
-    classnames: "npm:^2.3.2"
-    lodash-es: "npm:^4.17.15"
-    webpack: "npm:^5.74.0"
-  peerDependencies:
-    "@openmrs/esm-framework": 6.x
-    dayjs: 1.x
-    react: ^18.1.0
-    react-dom: ^18.1.0
-    react-i18next: 11.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
-
 "@openmrs/esm-api@npm:6.2.1-pre.2856":
   version: 6.2.1-pre.2856
   resolution: "@openmrs/esm-api@npm:6.2.1-pre.2856"
@@ -2864,53 +2846,6 @@ __metadata:
   checksum: 10/c227efa0621d9025881a710911fd60ec76991aa3561fd65e25ecb5d0fd1d531df3a32b51e2f23518fd71b633800445f97695ba164358166070133586cd0f36a5
   languageName: node
   linkType: hard
-
-"@openmrs/esm-appointments-app@workspace:packages/esm-appointments-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-appointments-app@workspace:packages/esm-appointments-app"
-  dependencies:
-    "@carbon/react": "npm:^1.76.0"
-    "@hookform/resolvers": "npm:^3.9.1"
-    "@openmrs/esm-patient-common-lib": "npm:next"
-    classnames: "npm:^2.3.2"
-    formik: "npm:^2.2.9"
-    lodash-es: "npm:^4.17.15"
-    react-hook-form: "npm:^7.54.0"
-    webpack: "npm:^5.74.0"
-    xlsx: "npm:^0.18.5"
-    yup: "npm:^0.32.11"
-    zod: "npm:^3.24.1"
-  peerDependencies:
-    "@openmrs/esm-framework": 6.x
-    "@openmrs/esm-patient-common-lib": 9.x
-    react: 18.x
-    react-dom: 18.x
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
-
-"@openmrs/esm-bed-management-app@workspace:packages/esm-bed-management-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-bed-management-app@workspace:packages/esm-bed-management-app"
-  dependencies:
-    "@carbon/react": "npm:^1.76.0"
-    "@hookform/resolvers": "npm:^3.9.1"
-    classnames: "npm:^2.3.2"
-    lodash-es: "npm:^4.17.15"
-    react-hook-form: "npm:^7.54.0"
-    webpack: "npm:^5.74.0"
-    zod: "npm:^3.24.1"
-  peerDependencies:
-    "@openmrs/esm-framework": 6.x
-    dayjs: 1.x
-    react: 18.x
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
 
 "@openmrs/esm-config@npm:6.2.1-pre.2856":
   version: 6.2.1-pre.2856
@@ -3091,127 +3026,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-patient-list-management-app@workspace:packages/esm-patient-list-management-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-patient-list-management-app@workspace:packages/esm-patient-list-management-app"
-  dependencies:
-    "@carbon/react": "npm:^1.76.0"
-    classnames: "npm:^2.3.2"
-    dexie: "npm:^3.0.3"
-    fuzzy: "npm:^0.1.3"
-    lodash-es: "npm:^4.17.15"
-    webpack: "npm:^5.74.0"
-  peerDependencies:
-    "@openmrs/esm-framework": 6.x
-    react: 18.x
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
-
-"@openmrs/esm-patient-management@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-patient-management@workspace:."
-  dependencies:
-    "@babel/core": "npm:^7.11.6"
-    "@carbon/react": "npm:^1.76.0"
-    "@openmrs/esm-framework": "npm:next"
-    "@playwright/test": "npm:^1.50.1"
-    "@swc/core": "npm:^1.2.165"
-    "@swc/jest": "npm:^0.2.29"
-    "@testing-library/dom": "npm:^9.3.3"
-    "@testing-library/jest-dom": "npm:^6.1.5"
-    "@testing-library/react": "npm:^14.1.2"
-    "@testing-library/user-event": "npm:^14.5.1"
-    "@types/jest": "npm:^29.5.11"
-    "@types/lodash-es": "npm:^4.17.3"
-    "@types/react": "npm:^18.0.9"
-    "@types/react-dom": "npm:^18.0.5"
-    "@types/react-router-dom": "npm:^5.3.3"
-    "@types/uuid": "npm:^8.3.0"
-    "@types/webpack-env": "npm:^1.16.0"
-    "@types/yup": "npm:^0.29.11"
-    "@typescript-eslint/eslint-plugin": "npm:^6.13.2"
-    "@typescript-eslint/parser": "npm:^6.13.2"
-    babel-preset-minify: "npm:^0.5.1"
-    concurrently: "npm:^5.3.0"
-    cross-env: "npm:^7.0.3"
-    css-loader: "npm:^6.8.1"
-    dayjs: "npm:^1.8.36"
-    dotenv: "npm:^16.0.3"
-    eslint: "npm:^8.55.0"
-    eslint-plugin-import: "npm:^2.31.0"
-    eslint-plugin-jest-dom: "npm:^5.4.0"
-    eslint-plugin-playwright: "npm:^2.1.0"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-testing-library: "npm:^6.2.2"
-    husky: "npm:^8.0.3"
-    i18next: "npm:^21.10.0"
-    i18next-parser: "npm:^6.6.0"
-    identity-obj-proxy: "npm:^3.0.0"
-    jest: "npm:^29.7.0"
-    jest-cli: "npm:^29.7.0"
-    jest-environment-jsdom: "npm:^29.7.0"
-    lint-staged: "npm:^15.2.1"
-    openmrs: "npm:next"
-    prettier: "npm:^3.1.1"
-    react: "npm:^18.1.0"
-    react-dom: "npm:^18.1.0"
-    react-i18next: "npm:^11.18.6"
-    react-router-dom: "npm:^6.3.0"
-    sass: "npm:^1.29.0"
-    sass-loader: "npm:^10.1.0"
-    swc-loader: "npm:^0.2.3"
-    swr: "npm:^2.0.1"
-    turbo: "npm:^2.4.2"
-    typedoc: "npm:^0.22.15"
-    typescript: "npm:^4.0.3"
-    webpack: "npm:^5.74.0"
-    webpack-cli: "npm:^4.10.0"
-    webpack-dev-server: "npm:^4.15.1"
-  languageName: unknown
-  linkType: soft
-
-"@openmrs/esm-patient-registration-app@workspace:packages/esm-patient-registration-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-patient-registration-app@workspace:packages/esm-patient-registration-app"
-  dependencies:
-    "@carbon/react": "npm:^1.76.0"
-    classnames: "npm:^2.3.2"
-    formik: "npm:^2.1.5"
-    lodash-es: "npm:^4.17.15"
-    uuid: "npm:^8.3.2"
-    webpack: "npm:^5.74.0"
-    yup: "npm:^0.29.1"
-  peerDependencies:
-    "@openmrs/esm-framework": 6.x
-    dayjs: 1.x
-    react: 18.x
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
-
-"@openmrs/esm-patient-search-app@workspace:packages/esm-patient-search-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-patient-search-app@workspace:packages/esm-patient-search-app"
-  dependencies:
-    "@carbon/react": "npm:^1.76.0"
-    classnames: "npm:^2.3.2"
-    lodash-es: "npm:^4.17.15"
-    react-hook-form: "npm:^7.54.0"
-    webpack: "npm:^5.74.0"
-  peerDependencies:
-    "@openmrs/esm-framework": 6.x
-    react: ^18.1.0
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
-
 "@openmrs/esm-react-utils@npm:6.2.1-pre.2856":
   version: 6.2.1-pre.2856
   resolution: "@openmrs/esm-react-utils@npm:6.2.1-pre.2856"
@@ -3253,26 +3067,6 @@ __metadata:
   checksum: 10/3c9a659342a8e35c963b271a95547808b6ae92b35af5302a19ab6d1690dbac2c8eec815407d8241bf1b5885e945c92e8a913061836175630c4eb58e284c1448f
   languageName: node
   linkType: hard
-
-"@openmrs/esm-service-queues-app@workspace:packages/esm-service-queues-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-service-queues-app@workspace:packages/esm-service-queues-app"
-  dependencies:
-    "@carbon/react": "npm:^1.76.0"
-    "@hookform/resolvers": "npm:^3.9.1"
-    classnames: "npm:^2.3.2"
-    lodash-es: "npm:^4.17.15"
-    react-hook-form: "npm:^7.54.0"
-    webpack: "npm:^5.74.0"
-    zod: "npm:^3.24.1"
-  peerDependencies:
-    "@openmrs/esm-framework": 6.x
-    react: ^18.1.0
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
 
 "@openmrs/esm-state@npm:6.2.1-pre.2856":
   version: 6.2.1-pre.2856
@@ -3344,25 +3138,6 @@ __metadata:
   checksum: 10/bd0ad1bb92ab6a0cb25b874daf55d585cef7b69160061e2ee735d242874d95a47497929fad2b44aa9fbb8c006bee5d6ff227685396dc3d900b158ffed1a59881
   languageName: node
   linkType: hard
-
-"@openmrs/esm-ward-app@workspace:packages/esm-ward-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-ward-app@workspace:packages/esm-ward-app"
-  dependencies:
-    "@carbon/react": "npm:^1.76.0"
-    classnames: "npm:^2.3.2"
-    lodash-es: "npm:^4.17.15"
-    react-hook-form: "npm:^7.54.0"
-    webpack: "npm:^5.74.0"
-    zod: "npm:^3.24.1"
-  peerDependencies:
-    "@openmrs/esm-framework": 6.x
-    react: ^18.1.0
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
 
 "@openmrs/webpack-config@npm:6.2.1-pre.2856":
   version: 6.2.1-pre.2856
@@ -6687,6 +6462,231 @@ __metadata:
   checksum: 10/7217bae9fe240e0d804969e7b2af11cb04ec608837c78b56ca88831991b287e232a0b7fce8d548beaff42aaf0197ffa471d81be6ac4c4e53b0148025a2c076ec
   languageName: node
   linkType: hard
+
+"@zimhospicare/esm-active-visits-app@workspace:packages/esm-active-visits-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-active-visits-app@workspace:packages/esm-active-visits-app"
+  dependencies:
+    "@carbon/react": "npm:^1.76.0"
+    classnames: "npm:^2.3.2"
+    lodash-es: "npm:^4.17.15"
+    webpack: "npm:^5.74.0"
+  peerDependencies:
+    "@openmrs/esm-framework": 6.x
+    dayjs: 1.x
+    react: ^18.1.0
+    react-dom: ^18.1.0
+    react-i18next: 11.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-appointments-app@workspace:packages/esm-appointments-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-appointments-app@workspace:packages/esm-appointments-app"
+  dependencies:
+    "@carbon/react": "npm:^1.76.0"
+    "@hookform/resolvers": "npm:^3.9.1"
+    "@openmrs/esm-patient-common-lib": "npm:next"
+    classnames: "npm:^2.3.2"
+    formik: "npm:^2.2.9"
+    lodash-es: "npm:^4.17.15"
+    react-hook-form: "npm:^7.54.0"
+    webpack: "npm:^5.74.0"
+    xlsx: "npm:^0.18.5"
+    yup: "npm:^0.32.11"
+    zod: "npm:^3.24.1"
+  peerDependencies:
+    "@openmrs/esm-framework": 6.x
+    "@openmrs/esm-patient-common-lib": 9.x
+    react: 18.x
+    react-dom: 18.x
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-bed-management-app@workspace:packages/esm-bed-management-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-bed-management-app@workspace:packages/esm-bed-management-app"
+  dependencies:
+    "@carbon/react": "npm:^1.76.0"
+    "@hookform/resolvers": "npm:^3.9.1"
+    classnames: "npm:^2.3.2"
+    lodash-es: "npm:^4.17.15"
+    react-hook-form: "npm:^7.54.0"
+    webpack: "npm:^5.74.0"
+    zod: "npm:^3.24.1"
+  peerDependencies:
+    "@openmrs/esm-framework": 6.x
+    dayjs: 1.x
+    react: 18.x
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-patient-list-management-app@workspace:packages/esm-patient-list-management-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-patient-list-management-app@workspace:packages/esm-patient-list-management-app"
+  dependencies:
+    "@carbon/react": "npm:^1.76.0"
+    classnames: "npm:^2.3.2"
+    dexie: "npm:^3.0.3"
+    fuzzy: "npm:^0.1.3"
+    lodash-es: "npm:^4.17.15"
+    webpack: "npm:^5.74.0"
+  peerDependencies:
+    "@openmrs/esm-framework": 6.x
+    react: 18.x
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-patient-management@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-patient-management@workspace:."
+  dependencies:
+    "@babel/core": "npm:^7.11.6"
+    "@carbon/react": "npm:^1.76.0"
+    "@openmrs/esm-framework": "npm:next"
+    "@playwright/test": "npm:^1.50.1"
+    "@swc/core": "npm:^1.2.165"
+    "@swc/jest": "npm:^0.2.29"
+    "@testing-library/dom": "npm:^9.3.3"
+    "@testing-library/jest-dom": "npm:^6.1.5"
+    "@testing-library/react": "npm:^14.1.2"
+    "@testing-library/user-event": "npm:^14.5.1"
+    "@types/jest": "npm:^29.5.11"
+    "@types/lodash-es": "npm:^4.17.3"
+    "@types/react": "npm:^18.0.9"
+    "@types/react-dom": "npm:^18.0.5"
+    "@types/react-router-dom": "npm:^5.3.3"
+    "@types/uuid": "npm:^8.3.0"
+    "@types/webpack-env": "npm:^1.16.0"
+    "@types/yup": "npm:^0.29.11"
+    "@typescript-eslint/eslint-plugin": "npm:^6.13.2"
+    "@typescript-eslint/parser": "npm:^6.13.2"
+    babel-preset-minify: "npm:^0.5.1"
+    concurrently: "npm:^5.3.0"
+    cross-env: "npm:^7.0.3"
+    css-loader: "npm:^6.8.1"
+    dayjs: "npm:^1.8.36"
+    dotenv: "npm:^16.0.3"
+    eslint: "npm:^8.55.0"
+    eslint-plugin-import: "npm:^2.31.0"
+    eslint-plugin-jest-dom: "npm:^5.4.0"
+    eslint-plugin-playwright: "npm:^2.1.0"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-testing-library: "npm:^6.2.2"
+    husky: "npm:^8.0.3"
+    i18next: "npm:^21.10.0"
+    i18next-parser: "npm:^6.6.0"
+    identity-obj-proxy: "npm:^3.0.0"
+    jest: "npm:^29.7.0"
+    jest-cli: "npm:^29.7.0"
+    jest-environment-jsdom: "npm:^29.7.0"
+    lint-staged: "npm:^15.2.1"
+    openmrs: "npm:next"
+    prettier: "npm:^3.1.1"
+    react: "npm:^18.1.0"
+    react-dom: "npm:^18.1.0"
+    react-i18next: "npm:^11.18.6"
+    react-router-dom: "npm:^6.3.0"
+    sass: "npm:^1.29.0"
+    sass-loader: "npm:^10.1.0"
+    swc-loader: "npm:^0.2.3"
+    swr: "npm:^2.0.1"
+    turbo: "npm:^2.4.2"
+    typedoc: "npm:^0.22.15"
+    typescript: "npm:^4.0.3"
+    webpack: "npm:^5.74.0"
+    webpack-cli: "npm:^4.10.0"
+    webpack-dev-server: "npm:^4.15.1"
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-patient-registration-app@workspace:packages/esm-patient-registration-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-patient-registration-app@workspace:packages/esm-patient-registration-app"
+  dependencies:
+    "@carbon/react": "npm:^1.76.0"
+    classnames: "npm:^2.3.2"
+    formik: "npm:^2.1.5"
+    lodash-es: "npm:^4.17.15"
+    uuid: "npm:^8.3.2"
+    webpack: "npm:^5.74.0"
+    yup: "npm:^0.29.1"
+  peerDependencies:
+    "@openmrs/esm-framework": 6.x
+    dayjs: 1.x
+    react: 18.x
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-patient-search-app@workspace:packages/esm-patient-search-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-patient-search-app@workspace:packages/esm-patient-search-app"
+  dependencies:
+    "@carbon/react": "npm:^1.76.0"
+    classnames: "npm:^2.3.2"
+    lodash-es: "npm:^4.17.15"
+    react-hook-form: "npm:^7.54.0"
+    webpack: "npm:^5.74.0"
+  peerDependencies:
+    "@openmrs/esm-framework": 6.x
+    react: ^18.1.0
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-service-queues-app@workspace:packages/esm-service-queues-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-service-queues-app@workspace:packages/esm-service-queues-app"
+  dependencies:
+    "@carbon/react": "npm:^1.76.0"
+    "@hookform/resolvers": "npm:^3.9.1"
+    classnames: "npm:^2.3.2"
+    lodash-es: "npm:^4.17.15"
+    react-hook-form: "npm:^7.54.0"
+    webpack: "npm:^5.74.0"
+    zod: "npm:^3.24.1"
+  peerDependencies:
+    "@openmrs/esm-framework": 6.x
+    react: ^18.1.0
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-ward-app@workspace:packages/esm-ward-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-ward-app@workspace:packages/esm-ward-app"
+  dependencies:
+    "@carbon/react": "npm:^1.76.0"
+    classnames: "npm:^2.3.2"
+    lodash-es: "npm:^4.17.15"
+    react-hook-form: "npm:^7.54.0"
+    webpack: "npm:^5.74.0"
+    zod: "npm:^3.24.1"
+  peerDependencies:
+    "@openmrs/esm-framework": 6.x
+    react: ^18.1.0
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
 
 "abab@npm:^2.0.6":
   version: 2.0.6
