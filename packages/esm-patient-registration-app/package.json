@@ -1,5 +1,5 @@
 {
-  "name": "@openmrs/esm-patient-registration-app",
+  "name": "@zimhospicare/esm-patient-registration-app",
   "version": "8.3.1",
   "description": "Patient registration microfrontend for O3",
   "browser": "dist/openmrs-esm-patient-registration-app.js",
