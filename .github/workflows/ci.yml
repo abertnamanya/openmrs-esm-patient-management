@@ -16,6 +16,12 @@ env:
   TURBO_TEAM: ${{ github.repository_owner }}
 
 jobs:
+  show-owner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print repository owner
+        run:
+          echo "Repo owner is: ${{ github.repository_owner }}"
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -142,18 +148,3 @@ jobs:
       - run: yarn config set npmAuthToken "${NODE_AUTH_TOKEN}" && yarn run ci:publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-
-
-#  deploy_patient_management:
-#    runs-on: ubuntu-latest
-#    needs: pre_release
-#    if: ${{ github.event_name == 'push' }} && github.repository_owner == 'openmrs'
-#
-#    steps:
-#      - name: 🔄 Trigger RefApp Build
-#        uses: fjogeleit/http-request-action@v1
-#        continue-on-error: true
-#        with:
-#          url: https://ci.openmrs.org/rest/api/latest/queue/O3-BF
-#          method: "POST"
-#          customHeaders: '{ "Authorization": "Bearer ${{ secrets.BAMBOO_TOKEN }}" }'
